@@ -38,14 +38,17 @@ That is all the setup required, allowing you to successfully run all notebooks.
 ## Interactive Dashboards
 To run the interactive dashboards, there is a bit more setup required. 
 
-1. Set `interactive_dashboards` as your working directory by running in your terminal
+### 1.
+Set `interactive_dashboards` as your working directory by running in your terminal
 > $ cd interactive_dashboards
 
 
-2. Install the root dependencies by running
+### 2.
+Install the root dependencies by running
 > $ pnpm install
 
-3. To access the Live Dashboard, run
+### 3. 
+To access the Live Dashboard, run
 > $ cd apps/frontend
 
 Ensure you have all live dashboard dependencies installed by running
@@ -61,7 +64,8 @@ Historical mode.
 Click on `Live` mode. This will populate the page with various nodes, filters, and configurations. You can read more about
 these in the various README files in the `interactive_dashboards/` directory.
 
-4. To access the Historical Dashboard, open a new terminal window and set `/backend` as your working directory. You'll
+### 4.
+To access the Historical Dashboard, open a new terminal window and set `/backend` as your working directory. You'll
 likely need to run:
 > $ cd interactive_dashboards/apps/backend
 
